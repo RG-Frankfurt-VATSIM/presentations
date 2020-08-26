@@ -1,0 +1,84 @@
+% !TeX program = xelatex
+\documentclass[10pt,a4paper,landscape]{article}
+\usepackage{fontspec}
+\setmainfont{Segoe UI}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage[english, ngerman]{babel}
+\usepackage[ngerman, num]{isodate}
+\usepackage{hyperref}
+\usepackage[landscape,top=1cm,bottom=1.5cm,right=1.5cm,left=1.5cm,includehead,includefoot]{geometry}
+\usepackage{fancyhdr, graphicx}
+\usepackage{lastpage}
+\usepackage{tabularx}
+
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{
+	%Left Head
+}
+
+\fancyhead[C]{
+	%Center Head
+}
+\fancyhead[R]{
+	\includegraphics[height=1cm]{images/VATGer-Logo-Colour}
+}
+\fancyfoot[L]{
+	For Flight Simulation only!
+}
+\fancyfoot[C]{
+%	\thepage/\pageref*{LastPage}
+}
+\fancyfoot[R]{
+	RG Frankfurt/VATSIM Germany
+}
+\pagestyle{fancy}
+
+
+\begin{document}
+
+\setlength{\parindent}{0pt}
+
+\begin{center}
+\huge
+\vspace{1cm}
+
+\textbf{RG Frankfurt}
+
+\normalsize
+VATSIM Germany
+%\vspace{.5cm}
+%\the\day.\the\month.\the\year
+%\today
+\end{center}
+
+
+\newpage
+\mbox{}
+\newpage
+\mbox{}
+\newpage
+\mbox{}
+\newpage
+\mbox{}
+\newpage
+\mbox{}
+\newpage
+\mbox{}
+
+
+\newpage 		%if you like
+\hspace{0pt}	%
+\vfill			%
+\centering		%
+End				%
+\vfill			%
+\hspace{0pt}	%if you like
+
+
+\end{document}
